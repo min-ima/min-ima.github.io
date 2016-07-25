@@ -33,5 +33,6 @@ a:hover {
 
 body {
 	background: url("icecreamdays.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 }

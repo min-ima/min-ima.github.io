@@ -31,7 +31,7 @@ a:hover {
 	font-family: "Open sans";
 }
 
-body {
+body.index {
 	background: url("icecreamdays.png");
 	background-size: cover;
 	background-repeat: no-repeat;

@@ -23,6 +23,10 @@ a.menu {
 	color: #8585ad;
 }
 
+a:hover {
+	color: red;
+}
+
 * {
 	font-family: "Open sans";
 }

@@ -1,10 +1,25 @@
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+
 	color: #b3b3cc;
+
+	margin-left: 60px;
+
+}
+
+p.menu {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 22.4px;
+
+	color: #8585ad;
+	margin-left: 70px;
 }
 
 * {

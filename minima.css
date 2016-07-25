@@ -8,6 +8,7 @@ h1 {
 	color: #b3b3cc;
 
 	margin-left: 60px;
+	margin-top: 20px;
 
 }
 
@@ -19,7 +20,8 @@ p.menu {
 	line-height: 22.4px;
 
 	color: #8585ad;
-	margin-left: 70px;
+	margin-left: 60px;
+	margin-top: 56px;
 }
 
 * {

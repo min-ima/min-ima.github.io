@@ -30,3 +30,9 @@ a:hover {
 * {
 	font-family: "Open sans";
 }
+
+div {
+	background: url("icecreamdays.jpg");
+	background-size: 80px 60px;
+	background-repeat: no-repeat;
+}

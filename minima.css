@@ -31,10 +31,3 @@ a:hover {
 	font-family: "Open sans";
 }
 
-body.index {
-	background: url("icecreamdays.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-position: center;
-}

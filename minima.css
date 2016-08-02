@@ -1,5 +1,5 @@
 h1 {
-	font-size: 28px;
+	font-size: 34px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -11,9 +11,11 @@ h1 {
 
 }
 
-
+p {
+	font-size: 28px;
+}
 a.menu {
-	font-size: 20px;
+	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;

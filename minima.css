@@ -30,9 +30,12 @@ a:hover {
 	color: #ffb3b3;
 }
 
+* {
+	font-family: "Open sans";	
+}
+
 body {
-	font-family: "Open sans";
 	margin-left: 100px;
-	margin-right: 100px;	
+	margin-right: 100px;
 }
 

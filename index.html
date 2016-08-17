@@ -11,10 +11,10 @@
 		<p style="color:LightSlateGrey; font-size:24px;">minimalism</p>
 		<p style="color:LightSlateGrey; font-weight:lighter;font-size:22px;font-style:italic;margin-left:40px;">1. deliberate <strike>lack of</strike> decoration or adornment in style or design.</p>
 
-		<p><?php
-			$file = fopen("test.txt", "r")
-			echo fread(file, filesize("test.txt"))
-			fclose($file)
-		?><p>
+		<p>here is:
+			<?php
+			echo readfile("test.txt");
+			?> 
+		<p>
 	</body>
 <html>

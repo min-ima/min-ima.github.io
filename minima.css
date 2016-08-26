@@ -11,15 +11,36 @@ h1 {
 
 }
 
+h3 {
+	color: #666699;
+	font-weight: lighter;
+	font-size:26px;
+	margin-right: 100px;
+	margin-top: 150px;
 }
-a.menu {
+
+p {
+	/*color:LightSlateGrey;*/
+	color: #586674;
+	font-weight:lighter;
+	font-size:22px;
+	margin-right: 100px;
+	text-align: justify;
+}
+
+
+a {
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
+	font-weight: lighter;
 	line-height: 22.4px;
+	/*color: #8585ad;*/
+	color: #666699;
+}
 
-	color: #8585ad;
+a:visited {
+	color: #666699;
 }
 
 a:hover {
@@ -32,6 +53,14 @@ a:hover {
 
 body {
 	margin-left: 150px;
-	margin-right: 100px;
+	margin-right: 250px;
+	
+	 background: url(manifold.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
 }
 

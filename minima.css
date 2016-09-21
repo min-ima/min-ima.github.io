@@ -1,12 +1,9 @@
 h1 {
-	font-size: 34px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-
-	color: #b3b3cc;
-
+	/*color: #666699;*/
+	color: #D8B5BA;
+	font-weight: lighter;
+	font-size:40px;
+	margin-right: 100px;
 	margin-top: 100px;
 
 }
@@ -54,9 +51,7 @@ a:hover {
 
 body {
 	margin-left: 150px;
-	margin-right: 250px;
-	
-	 background: url(manifold.png) no-repeat center center fixed; 
+	margin-right: 250px; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

@@ -14,8 +14,15 @@ h3 {
 	font-weight: lighter;
 	font-size:3vw;
 	/*font-size: 26px;*/
-	margin-right: 100px;
-	margin-top: 150px;
+}
+
+h3.construction {
+	/*color: #666699;*/
+	color: #D8B5BA;
+	font-weight: lighter;
+	font-size:3vw;
+	/*font-size: 26px;*/
+	margin-top: 10vw;
 }
 
 p {
@@ -52,6 +59,11 @@ a:hover {
 }
 
 body {
+	margin-left: 4vw;
+	margin-right: 2vw;
+}
+
+/*body {
 	margin-left: 150px;
 	margin-right: 250px; 
 	-webkit-background-size: cover;
@@ -60,5 +72,5 @@ body {
 	background-size: cover;
 
 
-}
+}*/
 

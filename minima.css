@@ -12,7 +12,8 @@ h3 {
 	/*color: #666699;*/
 	color: #D8B5BA;
 	font-weight: lighter;
-	font-size:26px;
+	font-size:3vw;
+	/*font-size: 26px;*/
 	margin-right: 100px;
 	margin-top: 150px;
 }
@@ -21,7 +22,8 @@ p {
 	/*color:LightSlateGrey;*/
 	color: #495159;
 	font-weight:lighter;
-	font-size:22px;
+	font-size: 2vw;
+	/*font-size:22px;*/
 	margin-right: 100px;
 	text-align: justify;
 }

@@ -23,8 +23,20 @@ h3.construction {
 	font-size:3vw;
 	/*font-size: 26px;*/
 	margin-top: 10vw;
+	margin-right: 10vw;
+	margin-left: 10vw;
 }
-
+p.construction {
+	/*color:LightSlateGrey;*/
+	color: #495159;
+	font-weight:lighter;
+	font-size: 2vw;
+	/*font-size:22px;*/
+	margin-right: 100px;
+	text-align: justify;
+	margin-right: 10vw;
+	margin-left: 10vw;
+}
 p {
 	/*color:LightSlateGrey;*/
 	color: #495159;
@@ -35,7 +47,15 @@ p {
 	text-align: justify;
 }
 
-
+a.construction {
+	font-size: 2vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 22.4px;
+	/*color: #8585ad;*/
+	color: #D8B5BA;
+}
 a {
 	font-size: 24px;
 	font-style: normal;

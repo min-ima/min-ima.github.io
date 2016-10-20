@@ -80,9 +80,8 @@ a:hover {
 
 body {
 	/*margin-top: 18%;*/
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-top: 10vmin;
+	margin-left: 15vmax;
 }
 
 .fixed {
@@ -90,29 +89,27 @@ body {
 	white-space: nowrap;
 }
 
-.container {
+/*.container {
 	margin-left: 200px;
 	margin-right:100px;
 	margin-top: 50px;
-}
+}*/
 
-.border {
-	border: 2px solid #D8B5BA; 
-}
 
 .logo {
-	top:50px;
-	text-align:center;
+	/*left:15vmax;*/
+	/*top:10vmin;*/
+	/*text-align:center;*/
 	background-color: white;	
 }
 
-@media only screen and (max-device-width: 1000px) {
+/*@media only screen and (max-device-width: 1000px) {
 	* {
 		overflow:hidden;
 	}
 	body {
 		text-align: center;
-		margin-top: 2%;
+		margin-top: 2%
 	}
 	.logo {
 		width:90vmin;
@@ -120,6 +117,9 @@ body {
 		margin-right: 5vmin;
 		top:2%;	
 	}
-}
+	.border {
+	border: 2px solid #D8B5BA; 
+}*/
+
 
 

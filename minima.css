@@ -119,7 +119,8 @@ body {
 	.logo {
 		width:90vmin;
 		height:25vmin;
-		margin-right: 5vmin;	
+		margin-right: 5vmin;
+		top:2%;	
 	}
 }
 

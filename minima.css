@@ -1,10 +1,14 @@
+* {
+	font-family: "Open sans", sans-serif;	
+}
+
 h1 {
 	/*color: #666699;*/
 	color: #D8B5BA;
 	font-weight: lighter;
-	font-size:40px;
-	margin-right: 100px;
-	margin-top: 100px;
+	font-size:4.5vw;
+/*	margin-right: 100px;
+	margin-top: 100px;*/
 
 }
 
@@ -38,8 +42,8 @@ p.construction {
 	margin-left: 10vw;
 }
 p {
-	/*color:LightSlateGrey;*/
-	color: #495159;
+	color:LightSlateGrey;
+	/*color: #495159;*/
 	font-weight:lighter;
 	font-size: 2vw;
 	/*font-size:22px;*/
@@ -74,24 +78,47 @@ a:hover {
 	color: #ffb3b3;
 }
 
-* {
-	font-family: "Open sans", sans-serif;	
-}
-
 body {
-	margin-top: 18%;
-	margin-left: 2vmax;
-	margin-right: 4vmax;
+	/*margin-top: 18%;*/
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-/*body {
-	margin-left: 150px;
-	margin-right: 250px; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+.fixed {
+	position: fixed;
+	white-space: nowrap;
+}
 
+.container {
+	margin-left: 200px;
+	margin-right:100px;
+	margin-top: 50px;
+}
 
-}*/
+.border {
+	border: 2px solid #D8B5BA; 
+}
+
+.logo {
+	top:50px;
+	width:20vmin;
+	height:20vmin;
+	text-align:center;
+}
+
+@media only screen and (max-device-width: 1000px) {
+	* {
+		overflow:hidden;
+	}
+	body {
+		text-align: center;
+	}
+	.logo {
+		width:90vmin;
+		height:25vmin;
+		margin-right: 5vmin;	
+	}
+}
+
 

@@ -103,23 +103,12 @@ body {
 	background-color: white;	
 }
 
-/*@media only screen and (max-device-width: 1000px) {
-	* {
-		overflow:hidden;
+@media only screen and (max-device-width: 1000px) {
+	body{
+		margin-top: 5%;
+		margin-left: 5%;
 	}
-	body {
-		text-align: center;
-		margin-top: 2%
-	}
-	.logo {
-		width:90vmin;
-		height:25vmin;
-		margin-right: 5vmin;
-		top:2%;	
-	}
-	.border {
-	border: 2px solid #D8B5BA; 
-}*/
+}
 
 
 

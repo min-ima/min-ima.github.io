@@ -8,7 +8,8 @@ body {
 }
 
 * {
-	font-family: "Open sans", sans-serif;	
+	font-family: "Open sans", sans-serif, "Andale Mono";
+	font-weight: lighter;
 }
 
 h1 {
@@ -163,6 +164,7 @@ span#category{
 	font-size: 5vh;
 	text-align: center;
 	vertical-align: middle;
+	white-space: nowrap;
 }
 
 

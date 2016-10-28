@@ -172,6 +172,7 @@ span#category{
 	text-align: center;
 	vertical-align: middle;
 	overflow:hidden;
+	max-width:29vmin;
 }
 
 
@@ -223,6 +224,7 @@ span#category{
 		color: #D8B5BA;
 		font-size: 3.5vh;
 		overflow: hidden;
+		max-width:38vmin;
 	}
 
 	div#main{

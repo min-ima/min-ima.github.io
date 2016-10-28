@@ -186,6 +186,14 @@ span#category{
 		font-size: 10vw;
 		display: inline-block;
 	}
+
+	a.home{
+		text-decoration: none;
+		font-size: 10vw;
+		font-family: "Open sans", sans-serif, "Andale Mono";
+		font-weight: lighter;
+	}
+
 	.logo {
 		text-align: center;
 	}

@@ -70,7 +70,7 @@ a.construction {
 	/*color: #8585ad;*/
 	color: #D8B5BA;
 }
-a {
+a.link{
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -78,6 +78,13 @@ a {
 	line-height: 22.4px;
 	/*color: #8585ad;*/
 	color: #D8B5BA;
+}
+
+a.home{
+	text-decoration: none;
+	font-size: 7vmin;
+	font-family: "Open sans", sans-serif, "Andale Mono";
+	font-weight: lighter;
 }
 
 a:visited {

@@ -200,19 +200,16 @@ p.oneline.capture {
 		font-size: 10vw;
 		font-family: "Open sans", sans-serif, "Andale Mono";
 		font-weight: lighter;
+		color: #D8B5BA;
 	}
 
-	.container.oneline{
-		text-align: center
-	}
-	
 	div.oneline.title{
-		float: left;
-		margin-left: 10vmin;
+		float:left;
+		margin-left: 8vmin;
 	}
 
 	h3.oneline.title {
-		font-size: 5vw;
+		font-size: 8vw;
 	}
 
 	p.oneline.capture {
@@ -223,6 +220,8 @@ p.oneline.capture {
 
 	.logo {
 		text-align: center;
+		margin: 0 auto;
+		/*position:fixed;*/
 	}
 	.quote {
 		bottom:0;
@@ -264,10 +263,11 @@ p.oneline.capture {
 	}
 
 	div#main{
-		max-height: none;
+		max-height: 60vmax;
 		padding: none;
 		margin: 0 auto;
 		text-align: center;
+		padding-top: 10px;
 	}
 
 	hr.mobile-only{
@@ -281,6 +281,7 @@ p.oneline.capture {
 	    width:70vmin;
 
 	}
+
 
 	.desktop-only{
 		visibility: hidden;

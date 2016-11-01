@@ -203,9 +203,17 @@ p.oneline.capture {
 		color: #D8B5BA;
 	}
 
+	div#main{
+		max-height: 70vmax;
+		padding: none;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 10px;
+	}
+
 	div.oneline.title{
 		float:left;
-		margin-left: 8vmin;
+		margin-left: 5vmin;
 	}
 
 	h3.oneline.title {
@@ -260,14 +268,6 @@ p.oneline.capture {
 		font-size: 3.5vh;
 		overflow: hidden;
 		max-width:38vmin;
-	}
-
-	div#main{
-		max-height: 60vmax;
-		padding: none;
-		margin: 0 auto;
-		text-align: center;
-		padding-top: 10px;
 	}
 
 	hr.mobile-only{

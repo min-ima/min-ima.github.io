@@ -122,7 +122,7 @@ a:hover {
 
 }
 
-hr {
+hr.desktop-only {
 	position:absolute;
 	display: block;
     height: 1px;
@@ -175,6 +175,13 @@ span#category{
 	max-width:29vmin;
 }
 
+.mobile-only {
+	visibility: hidden;
+}
+
+p.oneline.capture {
+	font-size: 2.5vmin;
+}
 
 @media only screen and (max-device-width: 1000px) {
 	body{
@@ -195,6 +202,25 @@ span#category{
 		font-weight: lighter;
 	}
 
+	.container.oneline{
+		text-align: center
+	}
+	
+	div.oneline.title{
+		float: left;
+		margin-left: 10vmin;
+	}
+
+	h3.oneline.title {
+		font-size: 5vw;
+	}
+
+	p.oneline.capture {
+		font-size: 3vmin;
+		width: 60vmin;
+		padding-left: 15vmin;
+	}
+
 	.logo {
 		text-align: center;
 	}
@@ -204,12 +230,12 @@ span#category{
 	}
 
 	.tile#overlay{
-		margin:15px;
+		margin:3px;
 	}
 
 	.tile{
-		max-width: 40vmin;
-		max-height: 40vmin;
+		width: 40vmin;
+		height: 40vmin;
 		display: inline-block;
 		/*border:solid lightgrey;*/
 	}
@@ -220,6 +246,16 @@ span#category{
 		line-height: 40vmin;
 		overflow: hidden;
 	}
+
+	.tile.oneline {
+		height: 80vmin;
+		width: 80vmin;
+	}
+
+	.tile.oneline#category{
+		border:transparent;
+	}
+
 	span#category{
 		color: #D8B5BA;
 		font-size: 3.5vh;
@@ -233,8 +269,26 @@ span#category{
 		margin: 0 auto;
 		text-align: center;
 	}
+
+	hr.mobile-only{
+		display: inline-block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid lightgrey;
+	    margin: 1em 0;
+	    padding: 0; 
+	    bottom:10vmin;
+	    width:70vmin;
+
+	}
+
 	.desktop-only{
 		visibility: hidden;
+	}
+
+	.mobile-only{
+		display: inline;
+		visibility: visible;
 	}
 }
 
@@ -242,6 +296,7 @@ span#category{
     width: 9px;
 }
  
+
 /*::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     border-radius: 10px;
@@ -253,4 +308,3 @@ span#category{
     background-color: #f6eeef;
 
 }
-Contact GitHub API Training Shop Blog About

@@ -10,6 +10,7 @@ body {
 * {
 	font-family: "Open sans", sans-serif, "Andale Mono";
 	font-weight: lighter;
+	color: #D8B5BA;
 }
 
 h1 {
@@ -58,7 +59,7 @@ p {
 	font-size: 2vw;
 	/*font-size:22px;*/
 	margin-right: 100px;
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 a.construction {
@@ -128,6 +129,12 @@ div#main{
 	padding: 1vh;
 }
 
+.box{
+	width: 35vmin;
+	height:35vmin;
+
+}
+
 .tile {
 	width:30vmin;
 	height:30vmin;
@@ -151,6 +158,48 @@ div#main{
 
 .tile#category:hover{
 	opacity:0.8;
+}
+
+.box{
+	margin-left: 5vmin;
+}
+
+.title{
+	font-size: 4vmin;
+}
+
+.image.grid{
+	width:30vmin;
+	height:30vmin;
+}
+
+.image{
+	width:35vmax;
+	height:35vmax;
+	background-size: cover;
+	margin: 0 auto;
+	float:left; 
+}
+
+.oneline{
+	width:80vmax;
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.textbox {
+	width:22.5vmax;
+	float:left;
+	text-align: left;
+}
+
+.caption{
+	font-style: italic;
+	color: slategrey;
+}
+
+hr{
+	width:35vmax;
 }
 
 span#category{
@@ -215,7 +264,7 @@ p.oneline.capture {
 
 	.logo {
 		text-align: left;
-		margin: 0 auto;
+		/*margin: 0 auto;*/
 		padding-left: 5vmin;
 	}
 	.quote {

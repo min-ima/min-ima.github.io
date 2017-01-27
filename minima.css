@@ -165,7 +165,7 @@ div#main{
 }
 
 .title{
-	font-size: 4vmin;
+	font-size: 5vmin;
 }
 
 .image.grid{
@@ -201,6 +201,27 @@ div#main{
 
 hr{
 	width:35vmax;
+}
+
+hr.menu {
+	width:100vmax;
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+	.textbox {
+		width: 80vmin;
+	}
+	.image {
+		width:80vmin;
+		height: 80vmin;
+	}
+	.oneline{
+		width:100vmin;
+	}
+	hr{
+		width:100vmin;
+	}
 }
 
 span#category{

@@ -50,7 +50,7 @@ for subdir, dirs, files in os.walk("oneline/posts"):
 		# body.append(etree.Element("hr"))
 
 
-templist_sorted = sorted(templist,key=lambda x: x[1])
+templist_sorted = sorted(templist,key=lambda x: int(x[1]))
 
 for div in templist_sorted:
 	body.append(div[0])
@@ -62,6 +62,6 @@ final = etree.ElementTree(html)
 final.write('oneliners_temp.html')
 xml = xml.dom.minidom.parse('oneliners_temp.html')
 pretty = xml.toprettyxml()
-final_pretty = open('oneliners_.html','w')
+final_pretty = open('oneliners.html','w')
 final_pretty.write(pretty)
 final_pretty.close() 

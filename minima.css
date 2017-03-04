@@ -110,16 +110,16 @@ a:hover {
 }
 
 
-hr.desktop-only {
-	position:absolute;
+hr {
+	/*position:absolute;*/
 	display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid lightgrey;
-    margin: 1em 0;
+    /*margin: 1em 0;*/
     padding: 0; 
-    bottom:10vmin;
-    width:80%;
+    /*bottom:10vmin;*/
+    width:45%;
 }
 
 
@@ -189,7 +189,7 @@ div#main{
 
 .textbox {
 	width:22.5vmax;
-	float:left;
+	/*float:left;*/
 	text-align: left;
 	color:#D8B5BA;
 }
@@ -199,19 +199,41 @@ div#main{
 	color: slategrey;
 }
 
-hr{
+/*hr{
 	width:45%;
-}
+}*/
 
 hr.menu {
 	width:100%;
 }
 
+hr.bottom {
+	width:80%;
+	position:relative;
+	bottom:15vmin;
+}
+
+.top {
+	width:8vmin;
+	text-align:center;
+	position:fixed;
+	bottom:15vmin;
+	right:15vmin;
+	font-size: 3vmin;
+	font-style:oblique;
+	border:solid 2px #D8B5BA;
+	}
+
+
 
 @media only screen and (max-device-width: 1000px) {
 	.textbox {
+		vertical-align: top;
 		width: 80vmin;
 		padding-left: 5vmin;
+		padding-bottom: 5vmin;
+		height: 10vmin;
+		float: none;
 	}
 	.image {
 		width:80vmin;
@@ -219,7 +241,7 @@ hr.menu {
 	}
 	.oneline{
 		width:100vmin;
-		height: 90vmin;
+		height: 100vmin;
 		text-align: center;
 	}
 	hr{
@@ -227,6 +249,11 @@ hr.menu {
 	}
 	.caption {
 		font-size: 3vmin;
+	}
+
+	.top {
+		font-size: 3vmax;
+		width: 6vmax;
 	}
 }
 

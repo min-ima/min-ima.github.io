@@ -174,8 +174,8 @@ div#main{
 }
 
 .image{
-	width:35vmax;
-	height:35vmax;
+	width:45vmax;
+	height:45vmax;
 	background-size: cover;
 	margin: 0 auto;
 	float:left; 

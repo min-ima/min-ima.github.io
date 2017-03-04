@@ -215,6 +215,7 @@ hr.menu {
 	.image {
 		width:80vmin;
 		height: 80vmin;
+		float:center;
 	}
 	.oneline{
 		width:100vmin;

@@ -30,16 +30,16 @@ for subdir, dirs, files in os.walk("oneline/posts"):
 			cap = chron_dict[name]
 		except KeyError:
 			continue
-		div = etree.Element("div",id=chron_dict[name][1], cat="oneline")
-		text = etree.Element("div",cat = "textbox")
-		t = etree.Element("div",cat="title")
+		div = etree.Element("div",id=chron_dict[name][1], class="oneline")
+		text = etree.Element("div",class = "textbox")
+		t = etree.Element("div",class="title")
 		t.text = name
-		caption = etree.Element("div",cat="caption")
+		caption = etree.Element("div",class="caption")
 		caption.text = chron_dict[name][0]
 		text.append(t)
 		text.append(caption)
 		temp="background-image:url('oneline/posts/"+oneline+"')"
-		imgDiv = etree.Element("div",cat="image",id="overlay", style=temp)
+		imgDiv = etree.Element("div",class="image",id="overlay", style=temp)
 		imgDiv.text=' '
 		div.append(text)
 		div.append(imgDiv)

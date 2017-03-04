@@ -156,6 +156,13 @@ div#main{
 	-moz-transition: opacity .25s ease;
 }
 
+.tile#products {
+	width:40vmin;
+	height:40vmin;
+	margin-right:20px;
+	margin-top: 20px;
+}
+
 .tile#category:hover{
 	opacity:0.8;
 }
@@ -236,6 +243,12 @@ hr.bottom {
 	border:solid 2px #D8B5BA;
 	}
 
+div.text{
+	padding: 8vmax;
+	width:50vmax;
+	color: slategrey;
+	font-size: 3vmin;
+}
 
 
 @media only screen and (max-device-width: 1000px) {

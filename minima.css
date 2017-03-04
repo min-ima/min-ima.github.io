@@ -178,7 +178,7 @@ div#main{
 	height:45vmax;
 	background-size: cover;
 	margin: 0 auto;
-	float:left; 
+	/*float:left; */
 }
 
 .oneline{
@@ -200,7 +200,7 @@ div#main{
 }
 
 hr{
-	width:45vmax;
+	width:45%;
 }
 
 hr.menu {
@@ -211,17 +211,22 @@ hr.menu {
 @media only screen and (max-device-width: 1000px) {
 	.textbox {
 		width: 80vmin;
+		padding-left: 5vmin;
 	}
 	.image {
 		width:80vmin;
 		height: 80vmin;
-		float:center;
 	}
 	.oneline{
 		width:100vmin;
+		height: 90vmin;
+		text-align: center;
 	}
 	hr{
-		width:100vmin;
+		width:95%;
+	}
+	.caption {
+		font-size: 3vmin;
 	}
 }
 

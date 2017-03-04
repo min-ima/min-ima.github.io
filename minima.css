@@ -182,13 +182,13 @@ div#main{
 }
 
 .oneline{
-	width:80vmax;
+	width:90vmax;
 	margin: 0 auto; 
 	text-align: center;
 }
 
 .textbox {
-	width:17.5vmax;
+	width:22.5vmax;
 	float:left;
 	text-align: left;
 	color:#D8B5BA;
@@ -204,7 +204,7 @@ hr{
 }
 
 hr.menu {
-	width:100vmax;
+	width:100%;
 }
 
 

@@ -254,6 +254,8 @@ hr.bottom {
 	.top {
 		font-size: 3vmax;
 		width: 6vmax;
+		bottom: 15vmax;
+		right: 3vmax;
 	}
 }
 

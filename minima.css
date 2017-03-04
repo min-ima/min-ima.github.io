@@ -204,7 +204,9 @@ div#main{
 }*/
 
 hr.menu {
-	width:100%;
+	position: relative;
+	bottom: 15vmin;
+	width:80%;
 }
 
 hr.bottom {
@@ -247,6 +249,11 @@ hr.bottom {
 	hr{
 		width:95%;
 	}
+
+	hr.menu {
+		display:none;
+	}
+
 	.caption {
 		font-size: 3vmin;
 	}

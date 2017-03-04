@@ -204,15 +204,25 @@ div#main{
 }*/
 
 hr.menu {
-	position: relative;
-	bottom: 15vmin;
-	width:80%;
+	/*position: relative;*/
+	/*bottom: 15vmin;*/
+	width:100%;
 }
 
 hr.bottom {
-	width:80%;
+	/*width:80%;
 	position:relative;
-	bottom:15vmin;
+	bottom:15vmin;*/
+
+	position:absolute;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid lightgrey;
+    margin: 1em 0;
+    padding: 0; 
+    bottom:15vmin;
+    width:80%;
 }
 
 .top {
@@ -250,7 +260,7 @@ hr.bottom {
 		width:95%;
 	}
 
-	hr.menu {
+	hr.bottom.main {
 		display:none;
 	}
 

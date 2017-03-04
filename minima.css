@@ -188,7 +188,7 @@ div#main{
 }
 
 .textbox {
-	width:22.5vmax;
+	width:17.5vmax;
 	float:left;
 	text-align: left;
 	color:#D8B5BA;
@@ -200,7 +200,7 @@ div#main{
 }
 
 hr{
-	width:35vmax;
+	width:45vmax;
 }
 
 hr.menu {
